@@ -1,8 +1,8 @@
 # Projektdokumentation
 
-**Navn:** 
+**Navn:** Rasmus Christian Toft
 
-**Hold:** WUxx
+**Hold:** WU12
 
 **Uddannelse:** Webudvikler
 
