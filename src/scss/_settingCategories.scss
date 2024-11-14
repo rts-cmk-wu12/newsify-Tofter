@@ -1,0 +1,22 @@
+.categories {
+    margin: 2em;
+    background-color: #F0F3F4;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    &__container {
+        display: flex;
+        font-size: 0.75em;
+        margin: 0.1em;
+        justify-content: space-between;
+        text-transform: uppercase;
+        padding: 2em;
+        text-align: center;
+    }
+
+    &__header {
+        text-align: left;
+        align-items: center;
+    }
+}

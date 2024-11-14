@@ -1,0 +1,25 @@
+@use "./color" as col;
+
+.hero{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 55px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color:col.$secondary-color-fossil;
+
+    &__button{
+        border: none;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 1em 0;
+        background-color:col.$secondary-color-fossil;
+        text-transform: uppercase;
+    }
+}
+
+.darkmode{
+    background-color: col.$primary-color-drab;
+    transition: 600ms ease;
+}
